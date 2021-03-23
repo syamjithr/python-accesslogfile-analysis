@@ -25,7 +25,7 @@ for logLine in log:
     date_hits.update({date:{ip:1}})
 ```
 ```
-    import matplotlib.pyplot as plt
+import matplotlib.pyplot as plt
 ip_List = []
 MaxHit = []
 for item in date_hits:
