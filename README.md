@@ -1,4 +1,4 @@
-# python-accesslogfile-analysis
+# python-access_logfile-analysis
 # Log file Analysis using Python
 You can use simple python codes to organize and analyze your log files like access_log. The bleow code will return a chart with ip and number of hits. For ploting the chart we used  matplotlib.pyplot module.
 ```
