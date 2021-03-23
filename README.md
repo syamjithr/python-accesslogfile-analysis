@@ -1,6 +1,6 @@
 # python-accesslogfile-analysis
 # Log file Analysis using Python
-You can use simple python codes to organize and analyze your log files like access_log. The bleow code will return a chat with ip and number of hits. For ploting the chat we used  matplotlib.pyplot module.
+You can use simple python codes to organize and analyze your log files like access_log. The bleow code will return a chart with ip and number of hits. For ploting the chart we used  matplotlib.pyplot module.
 ```
 log = open('access.log')
 
@@ -23,8 +23,8 @@ for logLine in log:
       date_hits[date].update({ip:1})
   else:
     date_hits.update({date:{ip:1}})
-    ```
-    ```
+```
+```
     import matplotlib.pyplot as plt
 ip_List = []
 MaxHit = []
