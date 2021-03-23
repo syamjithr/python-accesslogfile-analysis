@@ -45,3 +45,4 @@ plt.barh(ip_List,MaxHit)
 plt.show()
 ```
 #### output
+![hit_per_ip](https://user-images.githubusercontent.com/75690151/112109323-6b569d00-8bd7-11eb-9c4f-c55c61271469.png)
